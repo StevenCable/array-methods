@@ -16,3 +16,75 @@ var monthNames = ['Jan', 'Feb', 'Mar', 'Apr'];
 var bulkNumbers = [5, 5, 6, 6, 9, 9, 2, 2, 2, 5, 2];
 
 // do your work below!
+
+//PUSH IT REAL GOOD
+
+var firstName = "Steven";
+var lastName = "Cable";
+var nameArray = [];
+
+nameArray.push(firstName);
+nameArray.push(lastName);
+
+genericNumberArray.push(6,7,8,9,10);
+
+//POP IT LIKE IT'S HOTT
+var popResult = colors.pop();
+
+//PUT YOUR THANG DOWN FLIP IT AND REVERSE IT;TI ESREVER DNA TI PILF NWOD GNAHT RUOY TUP
+scrambledWords.reverse();
+phoneNumber.reverse();
+
+//SHIFT
+var nextOrder = orderQueue.shift();
+
+//SORT
+mixedNums.sort();
+mixedWords.sort();
+
+//SPLICE
+var notFruit = fruitCollection.splice(1,3);
+gemBox.splice(5,2);
+gemBox.splice(6,4);
+
+//PUSH & SORT
+upToTen.sort(upToTen.push(3,4,5,6,7,8));
+upToTen.splice(1,1);
+upToTen.push(upToTen.length + 1);
+
+//BROWN ONLY
+brownOnly.fill("brown");
+brownOnly.splice(5);
+
+//ORDERED VALUES
+orderedValues.unshift(1,2,3);
+orderedValuesNewLength = orderedValues.length;
+
+//CONCAT THAT SHAT
+var randomThingsArray = genericNumberArray.concat(colors);
+
+var myFirstOrder = [{takeOut: 'cereal'}];
+var mySecondOrder = [{takeOut: 'gummies'}];
+
+var updatedOrders = orderQueue.concat(myFirstOrder,mySecondOrder);
+
+//JOIN ME OR DIE
+var sentence = scrambledWords.join(" ");
+var myFruits = fruitCollection.join(' + ');
+
+//SLICE O' PIZZA
+var favoriteFriends = friends.slice(1,3);
+var owesMoney = friends.slice(3,6);
+
+//STRANG IT OUT
+var monthNameString = monthNames.toString();
+
+//INDEXOF ANSWERS
+var favoriteColor =  colors.indexOf("Red");
+var favoriteEvenNumber = mixedNums.indexOf(76);
+
+//LAST INDEX-OF THE MOHICANS
+var lastNine = bulkNumbers.lastIndexOf(9);
+var lastFive = bulkNumbers.lastIndexOf(5);
+
+//pau
